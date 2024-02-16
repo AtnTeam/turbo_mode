@@ -22,5 +22,6 @@ $(document).ready(function () {
   setTimeout(function () {
     $(".wrapper p:nth-child(3)").text("done ✅"); // Змінює текст на "done" через 5 секунд
     $(".wrapper2").remove(); // Видаляє блок wrapper2
+    $(".wrapper3").css("display", "block"); // Змінюємо inline-стиль блоку на display: block; через 20 секунд
   }, 20000);
 });
