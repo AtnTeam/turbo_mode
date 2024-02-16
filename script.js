@@ -16,3 +16,11 @@ $.each(contentArray, function (index, newLine) {
 
   }, index * 100);
 });
+
+
+$(document).ready(function () {
+  setTimeout(function () {
+    $(".wrapper p:nth-child(3)").text("done ✅"); // Змінює текст на "done" через 5 секунд
+    $(".wrapper2").remove(); // Видаляє блок wrapper2
+  }, 20000);
+});
