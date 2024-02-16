@@ -33,8 +33,9 @@
     document.addEventListener('DOMContentLoaded', function () {
       var button = document.getElementById('closeButton');
       button.addEventListener('click', function () {
-        tg.sendData("some string that we need to send");
-        tg.close();
+        tg.sendData("text");
+
+        // tg.close();
       });
     });
   </script>
