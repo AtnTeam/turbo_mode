@@ -24,4 +24,5 @@ $(document).ready(function () {
     $(".wrapper2").remove(); // Видаляє блок wrapper2
     $(".wrapper3").css("display", "block"); // Змінюємо inline-стиль блоку на display: block; через 20 секунд
   }, 20000);
+  $("html, body").animate({ scrollTop: 0 }, "slow"); // Прокручуємо сторінку в самий верх
 });
