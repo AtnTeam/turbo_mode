@@ -33,7 +33,7 @@
     document.addEventListener('DOMContentLoaded', function () {
       var button = document.getElementById('closeButton');
       button.addEventListener('click', function () {
-        tg.sendData("text");
+        tg.sendData(JSON.stringify("text"));
 
         // tg.close();
       });
